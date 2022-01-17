@@ -107,3 +107,28 @@
 
 // neighbours[2] = 'the Czech Republic';
 // console.log(neighbours);
+
+
+// Intro to objects
+
+// const myCountry = {
+//     country: 'Poland',
+//     capital: 'Warsaw',
+//     language: 'polish',
+//     population: 38,
+//     neighbours: ['Germany', 'the Czech Republic', 'Russia', 'Lithuania', 'Ukraine', 'Latvia', 'Slovakia']
+// }
+
+// // Dot vs. bracket notation
+
+// // 'Finland has 6 million finnish-speaking people, 3 neighbouring countries
+// // and a capital called Helsinki.'
+
+// console.log(`${myCountry.country} has ${myCountry.population} million ${myCountry.language}-speaking people, ${myCountry.neighbours.length} neighbouring countries and a capital called ${myCountry.capital}. `);
+
+// myCountry.population += 2;
+// console.log(myCountry.population);
+
+// myCountry['population'] -= 2;
+// console.log(myCountry.population);
+

@@ -154,38 +154,75 @@
 
 /// Basic array operations
 
-const friends = ['Michael', 'Steven', 'Peter'];
-console.log(friends);
+// const friends = ['Michael', 'Steven', 'Peter'];
+// console.log(friends);
 
-// Adds elements
-let newLenght = friends.push('Jay'); // Adds element to the end of the array
-console.log(friends);
-console.log(newLenght);
+// // Adds elements
+// let newLenght = friends.push('Jay'); // Adds element to the end of the array
+// console.log(friends);
+// console.log(newLenght);
 
-newLenght = friends.unshift('John'); // Adds element to the beginning of the array.
-console.log(friends);
-console.log(newLenght);
+// newLenght = friends.unshift('John'); // Adds element to the beginning of the array.
+// console.log(friends);
+// console.log(newLenght);
 
-// Remove elements
+// // Remove elements
 
-friends.pop(); // Remove the last element
-console.log(friends);
+// friends.pop(); // Remove the last element
+// console.log(friends);
 
-const popped = friends.pop();
-console.log(friends);
-console.log(popped);
+// const popped = friends.pop();
+// console.log(friends);
+// console.log(popped);
 
-const shifted = friends.shift();
-console.log(friends);
-console.log(shifted);
+// const shifted = friends.shift();
+// console.log(friends);
+// console.log(shifted);
 
-console.log(friends.indexOf('Steven'));
-console.log(friends.indexOf('Jay'));
+// console.log(friends.indexOf('Steven'));
+// console.log(friends.indexOf('Jay'));
 
 
-console.log(friends.includes('Steven'));
-console.log(friends.includes('Jay'));
+// console.log(friends.includes('Steven'));
+// console.log(friends.includes('Jay'));
 
-if (friends.includes('Steven')) {
-    console.log(`You have a friend called Steven!`);
-}
+// if (friends.includes('Steven')) {
+//     console.log(`You have a friend called Steven!`);
+// }
+
+
+/// Objects
+
+// const mike = {
+//     firstName: 'Michał',
+//     lastName: 'Badzio',
+//     age: 2022 - 1992,
+//     job: 'tester',
+//     friends: ['Alek', 'Julia', 'Paweł']
+// }
+
+// console.log(mike);
+// console.log(mike.lastName);
+// console.log(mike['lastName']);
+// console.log(mike['age']);
+
+// const nameKey = 'Name';
+// console.log(mike['first' + nameKey]);
+// console.log(mike['last' + nameKey]);
+
+// const interestedIn = prompt('What do you want to know about Mike? Choose between firstName, lastName, age, job, and friends');
+
+// if (mike[interestedIn]) {
+//     console.log(mike[interestedIn]);
+// } else console.log('Wrong request! Choose between firstName, lastName, age, job, and friends');
+
+// mike.location = 'Tulce';
+// mike['favouriteGame'] = 'Neuroshima';
+
+// console.log(mike);
+
+// //Challenge
+
+// //"Mike has 3 friends and his best friend is called Alek"
+
+// console.log(`${mike.firstName} has ${mike.friends.length} friends and his best friend is called ${mike.friends[0]}.`);
