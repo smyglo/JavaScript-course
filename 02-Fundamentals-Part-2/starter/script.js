@@ -226,3 +226,49 @@
 // //"Mike has 3 friends and his best friend is called Alek"
 
 // console.log(`${mike.firstName} has ${mike.friends.length} friends and his best friend is called ${mike.friends[0]}.`);
+
+
+// Other
+
+// const nett = Number(prompt(`What is the nett value?`));
+
+// const calcGros = function (nett) {
+//     return nett * 0.19 + nett;
+// }
+
+// console.log(calcGros(nett));
+
+
+// Object methods
+
+// const mike = {
+//     firstName: 'Michał',
+//     lastName: 'Badzio',
+//     birthYear: 1992,
+//     job: 'tester',
+//     friends: ['Alek', 'Julia', 'Paweł'],
+//     hasDriverLicence: false,
+
+//     // calcAge: function (birthYear) {
+//     //     return 2022 - birthYearl
+//     // }
+
+//     // calcAge: function () {
+//     //     console.log(this);
+//     //     return 2022 - this.birthYear;
+//     // }
+
+//     calcAge: function () {
+//         this.age = 2022 - this.birthYear;
+//         return this.age;
+//     },
+//     getSummary: function () {
+//         return `${this.firstName} is a ${this.calcAge()}-years old ${this.job}. This friends are ${this.friends[0]}, ${this.friends[1]} and ${this.friends[2]}. He has ${this.hasDriverLicence ? 'a' : 'no'} driver licence`
+//     }
+// }
+
+// console.log(mike.calcAge());
+// console.log(mike.age);
+// console.log(mike['calcAge'](1992));
+
+// console.log(mike.getSummary());

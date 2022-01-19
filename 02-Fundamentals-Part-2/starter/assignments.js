@@ -70,11 +70,11 @@
 // const Russia = describeCountry('Russia', 144, 'Moscow');
 // const Brittan = describeCountry('Brittan', 67, 'London');
 
-// function percentageOfWorld1(population) {
-//     const countryPercentage = population / 7900 * 100;
-//     // return `${country} has ${population} milion people, so it's about ${countryPercentage}% of the worlds population.`;
-//     return countryPercentage;
-// }
+function percentageOfWorld1(population) {
+    const countryPercentage = population / 7900 * 100;
+    // return `${country} has ${population} milion people, so it's about ${countryPercentage}% of the worlds population.`;
+    return countryPercentage;
+}
 
 // const populations = [48, 83, 144, 67];
 // console.log(populations.length === 4);
@@ -116,8 +116,32 @@
 //     capital: 'Warsaw',
 //     language: 'polish',
 //     population: 38,
-//     neighbours: ['Germany', 'the Czech Republic', 'Russia', 'Lithuania', 'Ukraine', 'Latvia', 'Slovakia']
+//     neighbours: ['Germany', 'the Czech Republic', 'Russia', 'Lithuania', 'Ukraine', 'Latvia', 'Slovakia'],
+
+//     percentageOfWorld1: function () {
+//         this.countryPercentage = this.population / 7900 * 100;
+//         return this.countryPercentage;
+//     },
+
+//     describe: function () {
+//         return `${this.country} has a ${this.population} milion, so it's about ${this.percentageOfWorld1()}% of the worlds population. ${this.country} has ${this.language}-speaking people and ${this.neighbours.length} neighbouring countries. Capital of ${this.country} is ${this.capital}.`
+//     },
+
+//     checkIsIsland: function () {
+//         // this.isIsland = this.neighbours.length === 0 ? true : false;
+//         this.isIsland = !Boolean(this.neighbours.length);
+//         return this.isIsland;
+//     },
 // }
+
+// console.log(myCountry.describe());
+// console.log(myCountry.checkIsIsland());
+// console.log(myCountry);
+// console.log(myCountry.neighbours.length);
+
+
+
+
 
 // // Dot vs. bracket notation
 
@@ -132,3 +156,34 @@
 // myCountry['population'] -= 2;
 // console.log(myCountry.population);
 
+
+
+// Object methods
+
+// const myCountry = {
+    //     country: 'Poland',
+    //     capital: 'Warsaw',
+    //     language: 'polish',
+    //     population: 38,
+    //     neighbours: ['Germany', 'the Czech Republic', 'Russia', 'Lithuania', 'Ukraine', 'Latvia', 'Slovakia'],
+    
+    //     percentageOfWorld1: function () {
+    //         this.countryPercentage = this.population / 7900 * 100;
+    //         return this.countryPercentage;
+    //     },
+    
+    //     describe: function () {
+    //         return `${this.country} has a ${this.population} milion, so it's about ${this.percentageOfWorld1()}% of the worlds population. ${this.country} has ${this.language}-speaking people and ${this.neighbours.length} neighbouring countries. Capital of ${this.country} is ${this.capital}.`
+    //     },
+    
+    //     checkIsIsland: function () {
+    //         // this.isIsland = this.neighbours.length === 0 ? true : false;
+    //         this.isIsland = !Boolean(this.neighbours.length);
+    //         return this.isIsland;
+    //     },
+    // }
+    
+    // console.log(myCountry.describe());
+    // console.log(myCountry.checkIsIsland());
+    // console.log(myCountry);
+    // console.log(myCountry.neighbours.length);
