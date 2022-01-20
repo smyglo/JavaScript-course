@@ -228,17 +228,6 @@
 // console.log(`${mike.firstName} has ${mike.friends.length} friends and his best friend is called ${mike.friends[0]}.`);
 
 
-// Other
-
-// const nett = Number(prompt(`What is the nett value?`));
-
-// const calcGros = function (nett) {
-//     return nett * 0.19 + nett;
-// }
-
-// console.log(calcGros(nett));
-
-
 // Object methods
 
 // const mike = {

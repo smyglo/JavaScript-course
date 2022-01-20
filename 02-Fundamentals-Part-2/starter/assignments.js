@@ -70,11 +70,11 @@
 // const Russia = describeCountry('Russia', 144, 'Moscow');
 // const Brittan = describeCountry('Brittan', 67, 'London');
 
-function percentageOfWorld1(population) {
-    const countryPercentage = population / 7900 * 100;
-    // return `${country} has ${population} milion people, so it's about ${countryPercentage}% of the worlds population.`;
-    return countryPercentage;
-}
+// function percentageOfWorld1(population) {
+//     const countryPercentage = population / 7900 * 100;
+//     // return `${country} has ${population} milion people, so it's about ${countryPercentage}% of the worlds population.`;
+//     return countryPercentage;
+// }
 
 // const populations = [48, 83, 144, 67];
 // console.log(populations.length === 4);
