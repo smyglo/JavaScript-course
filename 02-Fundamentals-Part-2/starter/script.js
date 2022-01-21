@@ -261,3 +261,106 @@
 // console.log(mike['calcAge'](1992));
 
 // console.log(mike.getSummary());
+
+
+// Loop
+
+
+// console.log('Lifting weight repetition 1');
+// console.log('Lifting weight repetition 2');
+// console.log('Lifting weight repetition 3');
+// console.log('Lifting weight repetition 4');
+// console.log('Lifting weight repetition 5');
+// console.log('Lifting weight repetition 6');
+// console.log('Lifting weight repetition 7');
+// console.log('Lifting weight repetition 8');
+// console.log('Lifting weight repetition 9');
+// console.log('Lifting weight repetition 10');
+
+
+// FOR loop keeps running while condition is true.
+// for (let rep = 1; rep <= 10; rep++) {
+//     console.log(`Lifting weight repetition ${rep}`);
+// }
+
+// const me = [
+//     'Michał',
+//     'Badzio',
+//     2022 - 1992,
+//     'tester',
+//     ['Alek', 'Daniel', 'Paweł'],
+//     true
+// ];
+
+// const types = [];
+
+// for (let i = 0; i < me.length; i++) {
+//     // Reading from jonas array
+//     console.log(me[i], typeof me[i]);
+
+//     // Filling types array
+//     // types[i] = typeof me[i];
+
+//     types.push(typeof me[i]);
+// };
+// console.log(types);
+
+// const years = [1992, 2007, 1969, 2020];
+// const ages = [];
+
+// for (let i = 0; i < years.length; i++) {
+//     ages.push(2022 - years[i]);
+// }
+
+// console.log(ages);
+
+// // continue and break
+// console.log('----ONLY STRINGS----');
+// for (let i = 0; i < me.length; i++) {
+//     if (typeof me[i] !== 'string') continue;
+
+//     console.log(me[i], typeof me[i]);
+// }
+
+// console.log('----BREAK WITH THE NUMBER----');
+// for (let i = 0; i < me.length; i++) {
+//     if (typeof me[i] === 'number') break;
+
+//     console.log(me[i], typeof me[i]);
+// }
+
+
+// Loopiing arrays backwards
+
+// const me = [
+//     'Michał',
+//     'Badzio',
+//     2022 - 1992,
+//     'tester',
+//     ['Alek', 'Daniel', 'Paweł'],
+//     true
+// ];
+
+// // 0, 1... 4;
+// // 4, 3... 0;
+
+// const backwards = [];
+
+// for (let i = me.length - 1; i >= 0; i--) {
+//     console.log(i, me[i]);
+// backwards.push(me[i]); // my change
+// }
+
+// console.log(backwards); // my change
+
+
+// Loop inside the loop
+
+// for (let excercise = 1; excercise < 4; excercise++) {
+//     console.log(`Excercise ${excercise}`);
+
+//     for (let rep = 1; rep < 6; rep++) {
+//         console.log(`Excercise ${excercise}: Lifting weight repetition ${rep}`);
+//     }
+// }
+
