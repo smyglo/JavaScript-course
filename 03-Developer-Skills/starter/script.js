@@ -1,5 +1,5 @@
 // Remember, we're gonna use strict mode in all scripts now!
-'use strict';
+// 'use strict';
 
 // const calcAge = birthYear => 2022 - birthYear;
 
@@ -68,3 +68,49 @@
 // };
 // const amplitudeNew = calcTempAmplitudeNew([3, 5, 6, -10], [1, 10, 111]);
 // console.log(amplitudeNew);
+
+// Debugging with the console and breakpoints
+
+// const measureKelvin = function () {
+//   const measurement = {
+//     type: 'temp',
+//     unit: 'celsius',
+//     // C) FIX
+//     // value: Number(prompt('Degrees celsius:')),
+//     value: 10,
+//   };
+
+//   // B) Find the bug
+//   console.table(measurement);
+//   //    returns value in formatted table
+
+//   //   console.warn(); - display as warn in the console
+//   //   console.error(); - display as error in the console
+//   //   console.log(typeof measurement.value); - IMO the best way
+
+//   const kelvin = measurement.value + 273;
+//   return kelvin;
+// };
+// // A) Identify the bug
+// console.log(measureKelvin());
+
+// // Usiang a debugger
+// const calcTempAmplitudeBug = function (t1, t2) {
+//   const temps = t1.concat(t2);
+//   console.log(temps);
+
+//   let max = 0;
+//   let min = 0;
+
+//   for (let i = 0; i < temps.length; i++) {
+//     const currTemp = temps[i];
+//     if (typeof currTemp !== 'number') continue;
+//     if (max < currTemp) max = currTemp;
+//     if (min > currTemp) min = currTemp;
+//   }
+//   console.log(max, min);
+//   return max - min;
+// };
+// const amplitudeBug = calcTempAmplitudeBug([3, 5, 6], [1, 10, 111]);
+// // A) Identify
+// console.log(amplitudeBug);

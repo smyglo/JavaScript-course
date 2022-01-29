@@ -1,4 +1,4 @@
-'use-strict';
+// 'use-strict';
 
 // const calcGros = function (nett) {
 //   return nett * 0.19 + nett;
